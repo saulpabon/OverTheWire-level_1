@@ -1,0 +1,9 @@
+The first thing to do in order to play this game, is to know how to connect to a server via SSH, the sintax is simple, but make sure to check the manpages.
+
+$ ssh username@hostname -p 2220 
+
+The username and the host will be provided in every level of https://overthewire.org/wargames/bandit/
+
+A password will be required, its bandit0
+
+After that, you will be prompted with the shell of the server, play around with the files inside, you will notice there is only one file to check, you can concatenate or list the contents of this file however you like, inside is file is the password for the next level.
